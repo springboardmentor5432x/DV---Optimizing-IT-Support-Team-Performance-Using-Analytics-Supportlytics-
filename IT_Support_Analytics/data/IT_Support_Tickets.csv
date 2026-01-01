@@ -1,1 +1,11 @@
-
+Ticket_ID,Type,Priority,Category,Country,Created_Date,Resolution_Date,Cluster_ID,Similarity_Score
+T001,Incident,High,Bug,India,05-01-2024 10:15,05-01-2024 14:30,C1,0.82
+T002,Request,Medium,Access,USA,06-01-2024 09:00,06-01-2024 11:00,C2,0.65
+T003,Problem,Critical,Security,UK,06-01-2024 12:45,07-01-2024 08:20,C3,0.91
+T004,Incident,Low,Integration,India,07-01-2024 14:10,07-01-2024 16:00,C1,0.78
+T005,Request,Medium,Bug,Canada,08-01-2024 10:00,08-01-2024 13:30,C1,0.84
+T006,Incident,High,Network,USA,08-01-2024 15:40,08-01-2024 19:00,C4,0.7
+T007,Problem,High,Database,India,09-01-2024 11:25,09-01-2024 18:45,C5,0.88
+T008,Request,Low,Access,UK,10-01-2024 09:30,10-01-2024 10:15,C2,0.6
+T009,Incident,Medium,Security,Canada,10-01-2024 13:00,10-01-2024 17:10,C3,0.86
+T010,Problem,Critical,Bug,USA,11-01-2024 08:50,11-01-2024 20:30,C1,0.93
