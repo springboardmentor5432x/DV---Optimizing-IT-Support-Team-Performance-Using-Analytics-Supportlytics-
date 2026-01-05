@@ -1,0 +1,58 @@
+Shape: (8469, 17)
+
+Columns:
+Ticket ID
+Customer Name
+Customer Email
+Customer Age
+Customer Gender
+Product Purchased
+Date of Purchase
+Ticket Type
+Ticket Subject
+Ticket Description
+Ticket Status
+Resolution
+Ticket Priority
+Ticket Channel
+First Response Time
+Time to Resolution
+Customer Satisfaction Rating
+
+Dtypes:
+Ticket ID                         int64
+Customer Name                    object
+Customer Email                   object
+Customer Age                      int64
+Customer Gender                  object
+Product Purchased                object
+Date of Purchase                 object
+Ticket Type                      object
+Ticket Subject                   object
+Ticket Description               object
+Ticket Status                    object
+Resolution                       object
+Ticket Priority                  object
+Ticket Channel                   object
+First Response Time              object
+Time to Resolution               object
+Customer Satisfaction Rating    float64
+
+Missing values:
+Customer Satisfaction Rating    5700
+Resolution                      5700
+Time to Resolution              5700
+First Response Time             2819
+Ticket ID                          0
+Customer Name                      0
+Customer Email                     0
+Customer Age                       0
+Customer Gender                    0
+Ticket Subject                     0
+Ticket Type                        0
+Date of Purchase                   0
+Product Purchased                  0
+Ticket Priority                    0
+Ticket Status                      0
+Ticket Description                 0
+Ticket Channel                     0
