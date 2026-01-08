@@ -1,31 +1,39 @@
-#Module 1 — Dataset Understanding & Preparation
+📁 README — Week 1 & Week 2 (Module-1 & Module-2)
+Week 1 — Dataset Understanding & Requirement Analysis
 
-Imported raw customer support ticket dataset
+Explored the support ticket dataset
 
-Identified key fields related to ticket handling and performance
+Identified key entities (ticket, customer, product, performance fields)
 
-Classified columns by roles (core, optional, drop)
+Mapped project objectives to dataset fields
 
-Removed PII fields (Customer Name, Email)
+Determined KPIs for analysis (Resolution Time, Priority, Ticket Status, Workload)
 
-Retained core performance fields (Status, Priority, Time fields)
+Classified columns into core, optional, and removable
 
-Validated domain concepts (Ticket lifecycle, unresolved tickets, priority levels)
+Defined problem scope: IT Support Ticket Performance Analysis
 
-Defined project KPIs (Resolution Time, Unresolved/Unresponded flags, Priority)
+Week 2 — Data Preprocessing & Feature Engineering
 
-#Module 2 — Data Cleaning & Feature Engineering
+Loaded and cleaned raw dataset
 
-Converted date/time columns to standardized datetime format
+Removed PII/irrelevant fields (name, email, resolution text, channel)
 
-Encoded priority into numeric Priority Score
+Converted timestamps to datetime format
 
-Engineered Resolution Time (Hours) from timestamps
+Encoded ticket priority into numerical score
 
-Created binary flags for Unresolved and Unresponded tickets
+Engineered Resolution Time (Hours) as primary performance KPI
 
-Categorized resolution speed (Fast/Medium/Slow)
+Created unresolved & unresponded ticket flags
 
-Handled missing time values as valid unresolved cases
+Categorized resolution speed (Fast / Medium / Slow)
 
-Exported cleaned dataset for EDA (processed_support_tickets.csv/.xlsx)
+Handled missing values logically (pending/unresolved cases preserved)
+
+Exported preprocessed dataset for EDA phase
+
+Output of Module-2
+
+Clean & structured EDA-ready dataset
+processed_support_tickets.csv (.xlsx)
