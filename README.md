@@ -1,7 +1,9 @@
 # DV - Optimizing IT Support Team Performance Using Analytics (Supportlytics)
 
+
 ## 📌 Project Overview
 This project analyzes IT support ticket data to identify key performance trends, evaluate resolution times, and enhance operational efficiency through data analysis and visualization techniques. 
+
 The goal is to uncover patterns in customer requests, technical issues, and support performance metrics to recommend improvements in workflow and resource allocation.
 
 ## 📊 Key Objectives
@@ -13,11 +15,12 @@ The goal is to uncover patterns in customer requests, technical issues, and supp
 - Provide actionable insights for IT support optimization
 
 ## Dataset
+Used a sythentic IT Service Management data from Kaggle
 - [Raw Dataset](data/ITSM_Dataset.csv)
 - [Cleaned Dataset](data/cleaned_ITSM_data.csv)
 
 ## 📓 Notebooks
-- [Data Preprocessing & Feature Engineering](notebooks/milestone 1.ipynb)
+- [Data Preprocessing & Feature Engineering] (notebooks/milestone 1.ipynb)
 
 ## 🛠 Technologies Used
 - Python
