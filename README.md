@@ -24,7 +24,7 @@ Supportlytics project, focused on analyzing customer support ticket data.
 
 ## 📁 Files in this Branch
 - `internship.ipynb` – Google Colab notebook with analysis
-- `supportlytics_cleaned_dataset.csv` – Cleaned dataset for further analysis
+- `customer_support_tickets.csv` – Cleaned dataset for further analysis
 
 ## 🛠 Tools & Libraries
 - Python
