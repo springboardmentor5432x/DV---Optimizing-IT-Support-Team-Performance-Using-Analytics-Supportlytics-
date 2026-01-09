@@ -1,0 +1,16 @@
+**DATA DICTIONARY:**
+| Attribute Name               | Data Type       | Description                                                |
+| ---------------------------- | --------------- | ---------------------------------------------------------- |
+| Ticket ID                    | Integer         | Unique identifier for each support ticket                  |
+| Ticket Type                  | Categorical     | Nature of the support request (e.g., technical, billing)   |
+| Ticket Priority              | Categorical     | Urgency level assigned to the ticket                       |
+| Priority_Score               | Numeric         | Numerical encoding of ticket priority (engineered feature) |
+| Ticket Status                | Categorical     | Current lifecycle status of the ticket                     |
+| Ticket Channel               | Categorical     | Channel through which the ticket was raised                |
+| First Response Time          | Datetime        | Timestamp of the first response provided                   |
+| Time to Resolution           | Datetime        | Timestamp when the ticket was resolved                     |
+| Resolution_Duration          | Numeric (Hours) | Time taken to resolve the ticket in hours                  |
+| Customer Satisfaction Rating | Numeric         | Customer feedback score after resolution                   |
+| Ticket Subject               | Categorical     | Short summary of the reported issue                        |
+| Ticket Description           | Text            | Detailed description of the issue                          |
+| Product                      | Categorical     | Product or service related to the ticket                   |
