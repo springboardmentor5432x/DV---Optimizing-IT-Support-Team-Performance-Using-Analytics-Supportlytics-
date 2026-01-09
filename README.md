@@ -9,13 +9,6 @@ Supportlytics project, focused on analyzing customer support ticket data.
 - Identified key performance indicators (KPIs)
 - Analyzed ticket distribution by type, priority, and status
 
-### KPIs Covered
-- Ticket Volume
-- Ticket Priority Distribution
-- Ticket Status Distribution
-- Average First Response Time
-- Average Resolution Time
-
 ## 📌 Module 2: Data Cleaning & Feature Engineering
 - Handled missing values in critical columns
 - Converted time-related columns to numeric format
@@ -24,7 +17,7 @@ Supportlytics project, focused on analyzing customer support ticket data.
 
 ## 📁 Files in this Branch
 - `internship.ipynb` – Google Colab notebook with analysis
-- `customer_support_tickets.csv` – Cleaned dataset for further analysis
+- `customer_support_tickets.csv` – Dataset used in this
 
 ## 🛠 Tools & Libraries
 - Python
