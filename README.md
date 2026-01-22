@@ -1,4 +1,4 @@
-**Optimizing IT Support Team Performance Using Analytics**
+***Project:*** Supportlytics-Data-Driven Optimization of IT Support Team Performance
 
 **Milestone 1: Data Preparation & Feature Engineering**
 
@@ -75,7 +75,6 @@ At the end of this milestone:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Milestone 2: Exploratory Visualization & Similarity-Based Cluster Analysis  
-**Project:** Supportlytics-Data-Driven Optimization of IT Support Team Performance
 
 ---
 
