@@ -1,4 +1,4 @@
-***Project:*** Supportlytics-Data-Driven Optimization of IT Support Team Performance
+#Project:Supportlytics-Data-Driven Optimization of IT Support Team Performance
 
 **Milestone 1: Data Preparation & Feature Engineering**
 
