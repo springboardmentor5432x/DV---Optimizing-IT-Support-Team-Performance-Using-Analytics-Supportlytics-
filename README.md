@@ -1,28 +1,49 @@
-       DV - Optimizing IT Support Team Performance Using Analytics ( Supportlytics)
+#                                              Optimizing IT Support Team Performance Using Analytics ( Supportlytics)      
+# Project Overview
+      Supportlytics analyzes IT support ticket data to identify issue patterns, optimize resolution time, and evaluate support team performance using analytics and visualization.
 
-#                 Week 1–2: Data Cleaning & Preparation
+# Milestone-wise Work
+# Milestone 1: Data Cleaning & Feature Engineering
+   - Loaded and explored raw ticket data
+   - Selected only relevant columns for analysis
+   - Converted start and end times to datetime format
+   - Created key features:
+       •Resolution_Hours
+       •Priority_Score
+   - Removed missing and invalid records
+   - Saved a cleaned dataset for further analysis
 
-# Objective
-Prepare a clean and structured IT support ticket dataset for analysis.
+ #  Output:
+      Cleaned CSV dataset ready for analysis   
 
-# Dataset Description
-The dataset contains IT support tickets with details such as:
-- Issue descriptions
-- Departments raising tickets
-- Priority levels
-- Associated tags
-- Ticket start and end times
-- Raw data includes missing values and inconsistent formats that require preprocessing.
+# Milestone 2: Exploratory Analysis & Clustering
+   - Analyzed ticket distribution by:
+       •Priority
+       •Department
+       •Ticket Type
+   - Identified top issue categories using tags
+   - Studied resolution time distribution
+   - Applied TF-IDF for text vectorization
+   - Used K-Means clustering to group similar issues
+   - Evaluated clusters using size and similarity scores
 
-# Steps Performed
-- Loaded raw IT support ticket dataset
-- Checked dataset shape, columns, and data types
-- Handled missing values and inconsistent entries
-- Converted Start_Time and End_Time into datetime format
-- Calculated Resolution_Hours for each ticket
-- Assigned Priority_Score based on ticket priority
-- Ensured dataset consistency for further analysis
+  # Output:
+      Visual insights
+      Cluster-level understanding of issues
 
-# Output
-- Cleaned dataset: IT_Support_Cleaned.csv
-- Dataset ready for feature engineering and analysis
+# Milestone 3: Performance & Geographic Insights
+   - Compared resolution times across:
+       •Priorities
+       •Ticket types
+       •Support teams
+   - Identified high-priority slow-resolving tickets
+   - Analyzed performance trends by country
+   - Studied relationship between cluster size and performance
+
+  # Output:
+       Performance metrics
+       Team and regional insights   
+
+
+
+       
