@@ -18,14 +18,17 @@ The goal is to uncover patterns in customer requests, technical issues, and supp
 Used a sythentic IT Service Management data from Kaggle
 - [Raw Dataset](data/ITSM_Dataset.csv)
 - [Cleaned Dataset](data/cleaned_ITSM_data.csv)
+- [Clusters Dataset](data/ticket_clusters.csv)
 
 ## 📓 Notebooks
 - [Data Preprocessing & Feature Engineering] (notebooks/milestone 1.ipynb)
+- [Exploratory Visualization & Similarity and Cluster Insights ] (notebooks/milestone 2.ipynb)
 
 ## 🛠 Technologies Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Scikit-learn
 - Jupyter Notebook
