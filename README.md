@@ -37,3 +37,127 @@ Output of Module-2
 
 Clean & structured EDA-ready dataset
 processed_support_tickets.csv (.xlsx)
+
+🧩 Module 3 — Exploratory Data Analysis (Week-3)
+
+Objective:
+To analyze support ticket behavior, workload, performance metrics, and backlog trends to uncover operational inefficiencies.
+
+Key Work Done:
+
+Performed dataset profiling and validation
+
+Analyzed ticket workload distribution by:
+
+Ticket Type
+
+Ticket Priority
+
+Ticket Status
+
+Calculated unresolved vs resolved ticket ratios
+
+Evaluated resolution performance (mean, median, variance)
+
+Examined resolution category distribution (Fast/Slow)
+
+Analyzed priority vs resolution time
+
+Analyzed ticket type vs resolution time
+
+Interpreted SLA compliance behavior
+
+Identified performance bottlenecks and backlog trends
+
+Visualizations Created (8+):
+
+Ticket Type distribution
+
+Priority distribution
+
+Ticket Status distribution
+
+Unresolved vs Resolved (Backlog)
+
+Resolution Category distribution
+
+Resolution Time summary
+
+Priority vs Resolution Time (Boxplot)
+
+Ticket Type vs Resolution Time (Boxplot)
+
+Insights Extracted:
+
+Ticket workload balanced across 5 major issue categories
+
+Priority levels evenly distributed (Medium ≈ Critical ≈ High ≈ Low)
+
+Mean resolution time ≈ 11.7 hours for closed tickets
+
+SLA breach ≈ 0% for resolved tickets (24h SLA benchmark)
+
+Major inefficiency ≈ 67% unresolved backlog
+
+Slow resolution category dominated due to unresolved tickets
+
+Outcome:
+Module-3 converted raw dataset into actionable operational insights and performance KPIs needed for optimization.
+
+⚙ Module 4 — Optimization & Clustering (Week-4)
+
+Objective:
+To use insights from Module-3 to identify root causes of performance bottlenecks and propose optimization strategies using SLA analysis, clustering, and workload patterns.
+
+Key Work Done:
+
+Mapped bottlenecks to root causes
+
+Performed SLA-based evaluation on resolution performance
+
+Proposed optimization strategies for:
+
+SLA prioritization
+
+Ticket routing based on issue type
+
+Customer follow-up automation
+
+Agent load balancing
+
+Knowledge base/self-service
+
+Implemented clustering using Ticket Subject + Description fields
+
+Calculated cluster sizes
+
+Mapped clusters to dominant Ticket Types and Priority
+
+Identified repetitive issue patterns for automation/FAQ candidates
+
+Clustering Approach:
+
+Vectorization: TF-IDF
+
+Algorithm: KMeans (k=5)
+
+Outputs:
+
+Cluster size distribution
+
+Dominant issue type per cluster
+
+Dominant priority per cluster
+
+Optimization Insights Extracted:
+
+Large clusters indicate repetitive issue types
+
+Technical & Refund clusters are ideal for automation
+
+Billing & Product Inquiry clusters suitable for self-service knowledge base
+
+Pending/Unresolved tickets require follow-up automation workflows
+
+Outcome:
+Module-4 translated EDA insights into practical optimization strategies to reduce backlog, improve resolution coverage, and enhance support performance.
