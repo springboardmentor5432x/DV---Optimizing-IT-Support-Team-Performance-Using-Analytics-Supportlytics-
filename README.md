@@ -1,5 +1,5 @@
-📁 README — Week 1 & Week 2 (Module-1 & Module-2)
-Week 1 — Dataset Understanding & Requirement Analysis
+# README — Milestone 1 (Module-1 & Module-2)
+# Week 1 — Dataset Understanding & Requirement Analysis
 
 Explored the support ticket dataset
 
@@ -13,7 +13,7 @@ Classified columns into core, optional, and removable
 
 Defined problem scope: IT Support Ticket Performance Analysis
 
-Week 2 — Data Preprocessing & Feature Engineering
+# Week 2 — Data Preprocessing & Feature Engineering
 
 Loaded and cleaned raw dataset
 
@@ -38,7 +38,9 @@ Output of Module-2
 Clean & structured EDA-ready dataset
 processed_support_tickets.csv (.xlsx)
 
-🧩 Module 3 — Exploratory Data Analysis (Week-3)
+# Milestone 2 (Week 3 and 4).
+
+# Module 3 — Exploratory Data Analysis (Week-3)
 
 Objective:
 To analyze support ticket behavior, workload, performance metrics, and backlog trends to uncover operational inefficiencies.
@@ -104,7 +106,7 @@ Slow resolution category dominated due to unresolved tickets
 Outcome:
 Module-3 converted raw dataset into actionable operational insights and performance KPIs needed for optimization.
 
-⚙ Module 4 — Optimization & Clustering (Week-4)
+# Module 4 — Optimization & Clustering (Week-4)
 
 Objective:
 To use insights from Module-3 to identify root causes of performance bottlenecks and propose optimization strategies using SLA analysis, clustering, and workload patterns.
@@ -161,3 +163,89 @@ Pending/Unresolved tickets require follow-up automation workflows
 
 Outcome:
 Module-4 translated EDA insights into practical optimization strategies to reduce backlog, improve resolution coverage, and enhance support performance.
+
+# Milestone 3 – Module 5 & Module 6
+
+# Module 5 – Performance Analytics
+
+Work Completed
+
+Created new column Resolution Time (Hours)
+
+Calculated average resolution time
+
+For entire dataset
+
+By Ticket Type
+
+By Priority
+
+Mapped ticket types into Request / Incident / Problem
+
+Analyzed high-priority tickets separately
+
+Identified unresolved tickets
+
+Performed trend analysis over time (monthly)
+
+Visualizations Created
+
+Bar chart: Ticket Type vs Average Resolution Time
+
+Bar chart: Priority vs Average Resolution Time
+
+Box plot: Ticket Category vs Resolution Time
+
+Bar chart: High-Priority Ticket Category vs Resolution
+
+Bar chart: Unresolved tickets by Priority
+
+Line chart: Resolution time trend over time
+
+Outcome
+
+Identified performance differences by priority and ticket type
+
+Found unresolved backlog as key challenge
+
+Highlighted high-priority delay patterns
+
+# Module 6 – Geographic & Cluster Analysis
+
+Work Completed
+
+Created a realistic Country column for geographic analysis
+
+Calculated ticket volume by country
+
+Compared resolution performance across countries
+
+Performed text clustering on ticket descriptions
+
+Calculated
+
+Cluster size
+
+Average resolution time per cluster
+
+Analyzed relationship between cluster size and performance
+
+Identified dominant issue type in each cluster
+
+Visualizations Created
+
+Bar chart & heatmap: Ticket concentration by country
+
+Bar chart: Country vs Average Resolution Time
+
+Scatter plot: Cluster Size vs Performance
+
+Bar chart: Cluster vs Average Resolution Time
+
+Outcome
+
+Detected regions with slower performance
+
+Identified repetitive issue clusters
+
+Suggested automation and routing improvements
