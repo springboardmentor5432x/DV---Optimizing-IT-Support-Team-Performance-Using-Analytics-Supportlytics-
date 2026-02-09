@@ -155,3 +155,132 @@ Performance gaps were visualized using boxplots and scatter plots:
 ## Conclusion
 
 Milestone 2 successfully combined exploratory visualization and similarity-based clustering to uncover meaningful patterns in IT support ticket data. The analysis identified recurring issue groups, highlighted performance inefficiencies, and demonstrated how issue complexity affects resolution time and customer satisfaction. These insights provide a strong foundation for further performance optimization in subsequent milestones.
+
+
+## Milestone 3 – Performance Trend Analysis & Geographic Insights
+
+---
+
+## Milestone Overview
+
+Milestone 3 focuses on evaluating **support performance trends** and identifying **operational and geographic patterns** that impact ticket resolution efficiency.  
+Building on the cleaned data and clusters developed in earlier milestones, this phase analyzes resolution behavior across priorities, ticket types, regions, and clusters to uncover performance gaps and improvement opportunities.
+
+---
+
+## Module 5: Performance Trend Analysis
+
+### Objective
+The objective of Module 5 is to analyze how efficiently support tickets are resolved across different dimensions such as **priority**, **ticket type**, and **resolution status**, and to identify unresolved high-risk tickets.
+
+### Key Analyses Performed
+
+#### Resolution Time Metric
+A clear **Resolution Time** metric (in hours) is used to measure how long tickets take to get resolved.  
+Average Resolution Time is calculated to compare performance across different categories.
+
+#### Average Resolution Time by Priority
+Resolution performance is analyzed across ticket priorities (High, Medium, Low).
+
+**Insights:**
+- High-priority tickets are generally resolved faster than lower-priority tickets.
+- This indicates that prioritization logic is largely effective, though some delays still exist.
+
+#### Average Resolution Time by Ticket Type
+Resolution time is compared across ticket types such as **Request**, **Incident**, and **Problem**.
+
+**Insights:**
+- Problems typically take longer to resolve due to higher complexity.
+- Requests tend to have lower resolution times, indicating standardized handling.
+
+#### High-Priority Ticket Analysis
+High-priority tickets are analyzed separately to understand urgency handling.
+
+**Insights:**
+- Certain ticket types continue to experience delays even when marked high priority.
+- This highlights cases where complexity outweighs urgency.
+
+#### Unresolved Ticket Identification
+Unresolved tickets are identified using ticket status (non-closed tickets).
+
+**Insights:**
+- A subset of high-priority tickets remains unresolved, representing operational risk.
+- These tickets require immediate attention and escalation.
+
+### Visualizations Created
+- Bar charts: Priority vs Average Resolution Time
+- Bar charts: Ticket Type vs Average Resolution Time
+- Bar chart: Unresolved Tickets by Priority
+- Line chart: Resolution Time Trend over Time
+
+---
+
+## Module 6: Geographic and Category-Level Insights
+
+### Objective
+The objective of Module 6 is to analyze **geographic-level and category-level patterns** in ticket volume and performance, and to connect these patterns with **cluster-level performance impacts**.
+
+### Geographic Dimension Handling
+The dataset does not contain explicit geographic attributes such as country, latitude, or longitude.  
+To enable geographic analysis, a **Region** column was derived using **Ticket Channel** as an operational proxy. This approach is documented and consistently used throughout Module 6.
+
+### Key Analyses Performed
+
+#### Geographic Ticket Concentration
+Ticket volume is analyzed across regions to identify high- and low-demand areas.
+
+**Insights:**
+- Certain regions generate significantly higher ticket volumes.
+- High concentration may indicate larger user bases, higher usage, or operational bottlenecks.
+
+#### Category-Level Geographic Analysis
+Issue categories (Ticket Type) are analyzed across regions.
+
+**Insights:**
+- Different regions show dominance of different ticket types.
+- This suggests regional variation in user behavior and issue complexity.
+
+#### Geographic Performance Comparison
+Average resolution time is compared across regions.
+
+**Insights:**
+- Some regions consistently resolve tickets faster, indicating efficient processes.
+- Regions with slower resolution times may face workload imbalance or resource constraints.
+
+#### Cluster Size and Performance Impact
+Previously generated issue clusters are used to analyze performance impact.
+
+**Insights:**
+- Large clusters with high resolution time represent systemic and repetitive issues.
+- Small but slow clusters indicate complex or specialized problems.
+- Clusters with high volume and poor performance are prime candidates for optimization.
+
+### Visualizations Created
+- Heatmap: Ticket concentration by region
+- Heatmap: Issue category distribution by region
+- Bar charts: Region vs Average Resolution Time
+- Bar chart: Cluster vs Average Resolution Time
+- Scatter plot: Cluster Size vs Performance
+
+---
+
+## Key Insights Across Milestone 3
+- Priority handling is generally effective, but complexity still causes delays.
+- Certain regions and categories contribute disproportionately to resolution delays.
+- High-volume clusters with poor performance indicate systemic issues.
+- Geographic and cluster-level analysis provides actionable insights for optimization.
+
+---
+## Recommendations
+- Prioritize optimization of large, slow-performing clusters.
+- Introduce automation or self-service for repetitive issue patterns.
+- Allocate additional resources to high-volume regions with slower resolution times.
+- Monitor unresolved high-priority tickets closely to reduce operational risk.
+- Use cluster-level monitoring to proactively detect performance degradation.
+
+---
+
+## Conclusion
+Milestone 3 successfully extends the analysis from descriptive insights to **performance-driven and geographic-aware evaluation**.  
+By integrating resolution trends, regional patterns, and cluster-level performance, this milestone provides actionable insights that directly support data-driven improvements in IT support operations.
+
