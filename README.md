@@ -1,3 +1,6 @@
+# Final MileStone - Dashboard 
+![Support Dashboard](dashboard.png)
+
 # README — Milestone 1 (Module-1 & Module-2)
 # Week 1 — Dataset Understanding & Requirement Analysis
 
