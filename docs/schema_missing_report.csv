@@ -1,0 +1,18 @@
+Column,dtype,missing_values,missing_%
+Customer Satisfaction Rating,float64,5700,67.3
+Resolution,object,5700,67.3
+Time to Resolution,object,5700,67.3
+First Response Time,object,2819,33.29
+Ticket ID,int64,0,0.0
+Customer Name,object,0,0.0
+Customer Email,object,0,0.0
+Customer Age,int64,0,0.0
+Customer Gender,object,0,0.0
+Ticket Subject,object,0,0.0
+Ticket Type,object,0,0.0
+Date of Purchase,object,0,0.0
+Product Purchased,object,0,0.0
+Ticket Priority,object,0,0.0
+Ticket Status,object,0,0.0
+Ticket Description,object,0,0.0
+Ticket Channel,object,0,0.0

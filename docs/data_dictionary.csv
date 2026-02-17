@@ -1,0 +1,20 @@
+Column,dtype
+Ticket ID,int64
+Customer Name,object
+Customer Email,object
+Customer Age,int64
+Customer Gender,object
+Product Purchased,object
+Date of Purchase,object
+Ticket Type,object
+Ticket Subject,object
+Ticket Description,object
+Ticket Status,object
+Resolution,object
+Ticket Priority,object
+Ticket Channel,object
+First Response Time,datetime64[ns]
+Time to Resolution,datetime64[ns]
+Customer Satisfaction Rating,float64
+Priority_Score,int64
+Resolution_Duration_Hours,float64
