@@ -19,19 +19,6 @@ Key challenges addressed in this project:
 
 The project aims to transform raw ticket data into meaningful performance intelligence.
 
-# Project Workflow
-
-```mermaid
-flowchart LR
-    A[Raw Ticket Data] --> B[Data Cleaning]
-    B --> C[Feature Engineering]
-    C --> D[Resolution Time Calculation]
-    D --> E[Exploratory Analysis]
-    E --> F[K-Means Clustering]
-    F --> G[Insight Generation]
-    G --> H[Power BI Dashboard]
-    H --> I[Business Recommendations]
-
 # Milestone 1 – Data Understanding & Exploratory Analysis
 
 ## Objective
