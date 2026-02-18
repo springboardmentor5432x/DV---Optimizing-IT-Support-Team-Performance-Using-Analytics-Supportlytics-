@@ -211,7 +211,7 @@ It supports both tactical operational decisions and strategic process improvemen
 # Conclusion
 
 The IT Service Management Dashboard provides a structured, analytical view of ticket operations by integrating workload analysis, efficiency benchmarking, clustering techniques, and regional comparisons.
-By combining operational metrics with machine learning–based segmentation, it delivers actionable insights rather than static summaries — making it a strong foundation for continuous service improvement.
+By combining operational metrics with machine learning–based segmentation, it delivers actionable insights rather than static summaries, making it a strong foundation for continuous service improvement.
 
 
 
