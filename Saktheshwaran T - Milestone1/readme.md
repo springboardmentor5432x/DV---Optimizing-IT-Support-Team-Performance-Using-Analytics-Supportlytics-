@@ -35,9 +35,6 @@ Saktheshwaran T - Milestone1/
 ├── SUPPORTLYTICS(M1).ipynb          # Milestone 1 analysis notebook
 ├── supportlytics_cleaned (1).csv   # Cleaned dataset
 ├── Corr.png                        # Correlation matrix
-├── Distplot1.png                   # Ticket distribution by type
-├── distplot2.png                   # Ticket distribution by priority
-├── distplot3.png                   # Top issue categories
 └── readme.md                       # Milestone 1 documentation
 ```
 
