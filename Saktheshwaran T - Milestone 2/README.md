@@ -28,8 +28,6 @@
 Saktheshwaran T - Milestone2/
 │
 ├── SUPPORTLYTICS(M2).ipynb          # Milestone 2 analysis notebook
-├── cluster_analysis_visuals/        # Saved visualizations
-├── processed_dataset.csv            # Dataset used for clustering insights
 └── readme.md                        # Milestone 2 documentation
 
 ---
@@ -51,6 +49,10 @@ Saktheshwaran T - Milestone2/
 ### 🔹 Cluster Size vs Resolution Duration
 - Used scatter plots to detect relationship between workload and performance.
 - Identified clusters with high volume but slow resolution.
+
+### 🔹 cluster size vs Issue type distribution
+- Visualized Different ticket problems across each clusters.
+- Identified which particular issue is dominant in each cluster categories.
 
 ### 🔹 Priority vs Resolution Performance
 - Compared average resolution time across priority levels.
