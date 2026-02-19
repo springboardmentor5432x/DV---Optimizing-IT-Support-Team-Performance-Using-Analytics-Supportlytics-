@@ -50,6 +50,7 @@ The dataset contains:
 - Latitude & Longitude
 - Cluster ID (generated using KMeans)
 - Survey results
+---
 
 ## Data Preparation & Processing
 ### 1. Data Cleaning
@@ -67,9 +68,9 @@ The dataset contains:
 - Cluster ID assignment
 - Created Similarity_Score indicating how closely each ticket matches the typical behaviour of its assigned cluster
 - Created time-based attributes (Year, Month, Month no, YearMonth)
-- 
 
-## Exploratory Data Analysis(Python)
+
+## Exploratory Data Analysis (Python)
 ### 1. Ticket Volume Analysis
 - Ticket Distribution by its Issue types
 - Ticket Distribution based on its Category
@@ -126,7 +127,7 @@ Other cluster based analysis:
 - Clusters 0 and 1 with high resolution time and less volume indicated complex issue types
 - Since we find no clear trend, so workload(cluster size) is not the main driver (skill or category matters more).
 
-## Power BI Dashboard Design
+## 📊 Power BI Dashboard Design
 The final dashboard includes:
 
 ### 🔶 1. Problem Overview (KPI Section)
@@ -150,6 +151,7 @@ The dashboard supports dynamic filtering by:
 - Priority
 - Time Period
 - Country
+
 All visuals update instantly.
 
 ## 📌 Key Insights
@@ -168,20 +170,22 @@ All visuals update instantly.
 - Qatar has highest ticket volume while Oman has longest ticket resolution durations.
 
 ## 🚀 Improvement Recommendations
-####🔹 1. Workload Redistribution
+🔹 1. Workload Redistribution
 Balance tickets across clusters to prevent overload-driven delays.
 
-####🔹 2. Regional Resource Allocation
+🔹 2. Regional Resource Allocation
 Increase staffing or automation in underperforming regions.
 
-####🔹 3. Category-Specific Training
+🔹 3. Category-Specific Training
 Focus training on dominant or high-resolution-time categories.
 
-####🔹 4. Automation Opportunities
+🔹 4. Automation Opportunities
 Automate frequently occurring low-complexity ticket categories.
 
-####🔹 5. Performance Monitoring Framework
+🔹 5. Performance Monitoring Framework
 Use dashboard for weekly performance reviews and SLA monitoring.
+
+---
 
 ## 📈 Business Impact
 This solution enables:
