@@ -99,6 +99,9 @@ The dataset contains:
 - Category-wise performance comparison across Countries
 
 ## Clustering Analysis
+
+These insights can guide better resource allocation and targeted process improvements by identifying the clusters causing performance degradation.
+
 Approach:
 Filtered resolved tickets with clusters
 Used **KMeans clustering** to group tickets based on:
@@ -109,10 +112,16 @@ Used **KMeans clustering** to group tickets based on:
 Cluster Metrics Computed:
 - Cluster Size (number of tickets)
 - Resolution Time per cluster
-- Cluster size(Workload) vs Performance measure
+- Cluster size(Workload) vs Avg Resolution time (Performance measure) scatter plot
 
 Other cluster based analysis:
-- Average Similarity Score of each Cluster
+- Average Similarity Score of each Cluster: shows how internally consistent each cluster is
 - Cluster size vs ticket type
-- PCA Visualization of Ticket Clusters
+- PCA Visualization of Ticket Clusters: illustrates cluster separation, overlap, and structural patterns, helping assess clustering effectiveness.
 - Priority Distribution Across Clusters
+
+### Cluster Insights
+- Clusters 2 and 4 showed high workload and high resolution time → potential overload imbalance or repetitive issue patterns
+- Clusters 3 and 5 maintained large volume but moderate performance → efficient handling
+- Clusters 0 and 1 with high resolution time and less volume indicated complex issue types
+- Since we find no clear trend, so workload(cluster size) is not the main driver (skill or category matters more).
