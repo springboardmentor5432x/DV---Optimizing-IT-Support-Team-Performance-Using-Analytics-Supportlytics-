@@ -284,3 +284,120 @@ Previously generated issue clusters are used to analyze performance impact.
 Milestone 3 successfully extends the analysis from descriptive insights to **performance-driven and geographic-aware evaluation**.  
 By integrating resolution trends, regional patterns, and cluster-level performance, this milestone provides actionable insights that directly support data-driven improvements in IT support operations.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Milestone 4: Advanced Interactive Dashboard (Power BI)
+
+---
+
+## Project Overview
+
+Supportlytics is a data analytics project focused on evaluating IT support team performance using data-driven insights.  
+
+The objective of Milestone 4 was to design and implement a fully interactive Power BI dashboard that consolidates all finalized analyses from previous milestones and presents executive-level KPIs, performance metrics, and actionable insights.
+
+---
+
+## Business Objective
+
+To analyze IT support performance across:
+
+- Ticket priorities
+- Ticket categories
+- Clusters
+- Regions
+- Time trends
+
+And identify:
+- Performance bottlenecks
+- High-volume categories
+- High-priority handling effectiveness
+- Operational workload distribution
+- Improvement opportunities
+
+---
+
+## Key Performance Indicators (KPIs)
+
+The dashboard includes:
+
+- **Total Tickets**
+- **Average Resolution Time (Days)**
+- **High-Priority Tickets Count**
+- **High-Priority Average Resolution Time**
+
+---
+
+## Visualizations Included
+
+1. Ticket Volume by Category
+2. Average Resolution Time by Priority
+3. Cluster Size vs Resolution Performance
+4. Average Resolution Time by Region
+5. Resolution Trend Over Time
+
+---
+
+## Interactivity Features
+
+The dashboard allows dynamic filtering by:
+
+- Ticket Priority
+- Ticket Type
+- Region
+- Time Period (Year/Month)
+
+Users can instantly observe how performance changes based on selected filters.
+
+---
+
+## Key Insights
+
+- Resolution time remains consistent (~31 days) across priorities and regions.
+- High-priority tickets represent a significant share of total volume.
+- Refund requests and technical issues dominate ticket categories.
+- Cluster distribution indicates workload concentration in specific clusters.
+- Regional performance appears operationally standardized.
+
+---
+
+## Improvement Focus Areas
+
+- Implement SLA-based monitoring for high-priority tickets.
+- Automate handling of high-volume ticket categories.
+- Rebalance workload across clusters.
+- Standardize best-performing regional practices.
+
+---
+
+## Tools Used
+
+- Python (Data Cleaning & Clustering)
+- Pandas
+- Power BI (Dashboard Development)
+- DAX Measures
+
+---
+
+## Dataset
+
+Final dataset used:
+`cleaned_final_customer_support_tickets.csv`
+
+Includes:
+- Ticket ID
+- Ticket Priority
+- Ticket Type
+- Region
+- Cluster_ID
+- Resolution Time
+- Derived metrics
+
+---
+
+##  Conclusion
+
+This dashboard enables data-driven decision-making for IT support performance optimization and provides leadership with clear visibility into operational efficiency and improvement opportunities.
+
+
+
