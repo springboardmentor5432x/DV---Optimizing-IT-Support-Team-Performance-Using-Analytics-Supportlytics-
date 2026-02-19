@@ -69,7 +69,7 @@ The dataset contains:
 - Created time-based attributes (Year, Month, Month no, YearMonth)
 - 
 
-## Exploratory Data Analysis (Python)
+## Exploratory Data Analysis(Python)
 ### 1. Ticket Volume Analysis
 - Ticket Distribution by its Issue types
 - Ticket Distribution based on its Category
@@ -125,3 +125,89 @@ Other cluster based analysis:
 - Clusters 3 and 5 maintained large volume but moderate performance → efficient handling
 - Clusters 0 and 1 with high resolution time and less volume indicated complex issue types
 - Since we find no clear trend, so workload(cluster size) is not the main driver (skill or category matters more).
+
+## Power BI Dashboard Design
+The final dashboard includes:
+
+### 🔶 1. Problem Overview (KPI Section)
+- Total Tickets
+- Avg Resolution Time(hours)
+- High Priority Tickets Count
+- High Priority Tickets Avg Resolution Time(hours)
+- Resolved tickets rate
+
+### 🔶 2. Performance Analysis
+- Ticket Volume by Category: Identifies dominant issue categories.
+- High Priority Performance by Category: highlights risk areas.
+- Ticket Resolution Status Distribution (Donut Chart): compares ticket resolution and backlogs
+- Cluster Size vs Performance (Scatter Plot): shows workload impact across clusters
+- Average Resolution Duration over Time(Months): describes resolution efficiency
+- Regional Performance: Compares efficiency geographically.
+
+### 🔶 3. Interactive Filters
+The dashboard supports dynamic filtering by:
+- Ticket Issue
+- Priority
+- Time Period
+- Country
+All visuals update instantly.
+
+## 📌 Key Insights
+
+- High & Critical tickets represent a significant percentage of total volume, indicating high operational pressure.
+- Critical and Medium priority tickets have the largest backlog. This suggests that the critical marked tickets are getting stuck in the resolution process.
+- Average Resolution time is 2.33 hours while High Priority tickets Average Resolution time is 1.33 hours describing that prioritzation policies are working efficiently.
+- Resolved tickets rate is 40.15%.
+- Certain countries and categories demonstrate higher average resolution time, suggesting resource or process inefficiencies.
+- Specific categories like Hardware dominate ticket volume, requiring targeted expertise.
+- Some clusters like 0 and 1 with lower ticket volume still show high resolution time, indicating complexity-driven delays.
+- Cluster 2 and 4 shows highest workload and also elevated resolution time, while cluster 0 is taking long resolution time.
+- Cluster 5 and 3 are best well defined and efficent.
+- Access Request and Hardware Failure issue tickets require maximum resolution times.
+- Upward trend observed in the average resolution time for the last few months(June, July, August) depicts increasing ticket complexity / workload over time.
+- Qatar has highest ticket volume while Oman has longest ticket resolution durations.
+
+## 🚀 Improvement Recommendations
+####🔹 1. Workload Redistribution
+Balance tickets across clusters to prevent overload-driven delays.
+
+####🔹 2. Regional Resource Allocation
+Increase staffing or automation in underperforming regions.
+
+####🔹 3. Category-Specific Training
+Focus training on dominant or high-resolution-time categories.
+
+####🔹 4. Automation Opportunities
+Automate frequently occurring low-complexity ticket categories.
+
+####🔹 5. Performance Monitoring Framework
+Use dashboard for weekly performance reviews and SLA monitoring.
+
+## 📈 Business Impact
+This solution enables:
+- Data-driven operational decisions
+- Early detection of backlog or repitive risks
+- SLA compliance monitoring
+- Resource optimization
+- Regional performance benchmarking
+- Cluster-based workload analysis
+---
+
+## 🧠 Skills Demonstrated
+- Data Cleaning & Transformation
+- Exploratory Data Analysis
+- Statistical Aggregation
+- Clustering (KMeans)
+- Performance Analytics
+- DAX Measures
+- Interactive Dashboard Design
+- Business Insight Generation
+***
+
+## Conclusion
+
+This project successfully integrates data analytics and business intelligence to evaluate IT support performance.
+
+The interactive Power BI dashboard transforms raw ticket data into actionable insights, enabling continuous performance monitoring and operational optimization.
+
+The combination of clustering and KPI analysis provides both macro-level and micro-level performance visibility.
