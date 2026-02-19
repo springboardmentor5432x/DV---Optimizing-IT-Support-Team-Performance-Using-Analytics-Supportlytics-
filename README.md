@@ -25,7 +25,8 @@ Used a sythentic IT Service Management data from Kaggle
 
 ## 📓 Notebooks
 - [Data Preprocessing & Feature Engineering] (notebooks/milestone 1.ipynb)
-- [Exploratory Visualization & Similarity and Cluster Insights ] (notebooks/milestone 2.ipynb)
+- [EDA Visualizations, Similarity and Cluster Insights] (notebooks/milestone 2.ipynb)
+- [Performance Analysis & Geographic, Category-level Insights] (notebooks/milestone 3.ipynb)
 
 ## 🛠 Tools & Technologies Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
@@ -37,7 +38,7 @@ Used a sythentic IT Service Management data from Kaggle
 The dataset contains:
 - Ticket ID
 - Created time
-- First response time
+- First response time(in minutes)
 - Closing time
 - Resolution Duration (in hours)
 - Status (Resolved, Closed, Open, New, In Progress)
@@ -45,42 +46,73 @@ The dataset contains:
 - Source
 - Topic (Ticket Issue)
 - Product group (Ticket Category)
-- Country
+- Country (Oman, Kuwait, Bahrain, UAE, Saudi Arabia, Qatar)
 - Latitude & Longitude
 - Cluster ID (generated using KMeans)
 - Survey results
 
-### Data Preparation & Processing
-#### 1. Data Cleaning
+## Data Preparation & Processing
+### 1. Data Cleaning
 - Checked for missing values
 - Removed unwanted columns
 - Converted date columns to datetime format
+- Filtered resolved tickets for performance metrics
+- Created Date Table for Power BI time intelligence
 
- #### 2. Feature Engineering
+ ### 2. Feature Engineering
 - Added Resolution Duration(hours) column by subtracting Resolution time - Created time
 - Added First Respone time(minutes) column by subtracting Resolution time - Created time
 - Encoded Priority column into a numeric Priority Score column for clustering
+- Resolved and unresolved tickets grouping separately
+- Cluster ID assignment
+- Created Similarity_Score indicating how closely each ticket matches the typical behaviour of its assigned cluster
+- Created time-based attributes (Year, Month, Month no, YearMonth)
+- 
 
-### Exploratory Data Analysis (Python)
-#### 1. Ticket Volume Analysis
-- Count of tickets by category
-- Count by Priority
-- Count of tickets by ticket issue
+## Exploratory Data Analysis (Python)
+### 1. Ticket Volume Analysis
+- Ticket Distribution by its Issue types
+- Ticket Distribution based on its Category
+- Ticket Distribution based on its Priority
+- Customer Satisfaction Distribution
+- Ticket Distribution by its Source
+- Unresolved tickets per priority 
 
-#### 2. High-Priority Analysis
+### 2. High-Priority Analysis
+- High + Critical ticket count
+- Ticket Type vs Resolution Time comparison for higher priority tickets
+- High-Priority Tickets Count by Category 
 
-High + Critical ticket count
+### 3. Ticket Resolution Analysis
+- Total Average Resolution Time
+- Computing Average Ticket Resolution times across issue types and priorities
+- Resolved vs Resolving Tickets for its associated Agent Group
+- Resolution time trend over time (Monthly and Weekly)
 
-High-priority resolution time comparison
+### 4. Regional Performance
+- Average Resolution time across Countries
+- Heatmap of ticket concentration by country
+- Geo-scatter map of ticket categories
 
-#### 3. Regional Performance
+### 5. Category Comparison
+- Ticket distribution by category and country
+- Category-wise performance comparison across Countries
 
-Average resolution time by region
+## Clustering Analysis
+Approach:
+Filtered resolved tickets with clusters
+Used **KMeans clustering** to group tickets based on:
+- Resolution duration
+- Priority Score
+- Category encoded
 
-Heatmap of ticket concentration
+Cluster Metrics Computed:
+- Cluster Size (number of tickets)
+- Resolution Time per cluster
+- Cluster size(Workload) vs Performance measure
 
-#### 4. Category Comparison
-
-Ticket distribution by category and country
-
-Category-wise performance comparison
+Other cluster based analysis:
+- Average Similarity Score of each Cluster
+- Cluster size vs ticket type
+- PCA Visualization of Ticket Clusters
+- Priority Distribution Across Clusters
